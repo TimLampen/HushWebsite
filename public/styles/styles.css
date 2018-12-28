@@ -1,0 +1,116 @@
+/* Colour palette
+#071C46 - dark blue
+#FFCA28 - yellow
+
+
+/* Global styles
+----------------*/
+
+@font-face {
+font-family: "Glacial Indifference Bold";
+src: url("fonts/GlacialIndifference-Bold.otf");
+}
+
+@font-face {
+font-family: "Glacial Indifference Regular";
+src: url("fonts/GlacialIndifference-Regular.otf");
+}
+
+@font-face {
+font-family: "League Spartan Bold";
+src: url("fonts/LeagueSpartan-Bold.otf");
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+.center {
+  margin: auto;
+  border: hidden;
+  padding: 1vw;
+}
+h1 {
+	font-family: 'Glacial Indifference Regular', sans-serif;
+	font-size: 9rem;
+	margin-top: 0;
+	color: #071C46;
+	margin: 1%;
+}
+h2 {
+	font-family: 'League Spartan Bold', sans-serif;
+	font-size: 40px;
+	color: #FFCA28;
+	margin: 1%;
+	max-width: 40vw;
+	background: white;
+}
+@media (min-width: 320px) {
+  h2 { font-size: calc( 3.125vw + 40px ); }
+}
+
+@media (min-width: 960px) {
+  h2 { font-size: 70px; }
+  .logo { margin-right: 15px; }
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -100;
+}
+.content-wrap {
+	/*max-width: 950px;*/
+	margin: 0 auto;
+	padding: 4vw;
+	overflow: hidden;
+}
+.logo {
+	max-width: 100%;
+	max-height: 300px;
+	padding-top: 2.5em;
+}
+.button {
+  background-color: #071C46;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-top: 10px;
+  font-family: 'Glacial Indifference Regular', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+}
+.button:hover {
+  background-color: #27447C;
+}
+.triangle-upRight {
+	width: 0;
+	height: 0;
+	border-left: 50vw solid transparent;
+	border-top: 50vw solid #FFCA28;
+	position: fixed;
+	right: 0;
+}
+
+.triangle-lowLeft {
+	width: 0;
+	height: 0;
+	border-right: 7em solid transparent;
+	border-bottom: 7em solid #FFCA28;
+	position: fixed;
+	bottom: 0;
+}
+
+
+/* Header and Footer
+---------------------------*/
