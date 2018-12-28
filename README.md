@@ -1,1 +1,3 @@
-hush-landing
+Landing page for Hush.
+
+https://gethush.app
