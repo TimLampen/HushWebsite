@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hush | Harness Your Notifications</title>
-	<link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="styles/styles.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -17,12 +18,31 @@
 	
 </head>
 <body>
+    <header>
+        <nav id="navbar1" class="navbar fixed-top navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"></a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link nav-text" href="#about">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-text" href="#features">FEATURES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-text" href="#contact">CONTACT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link download-button" href="https://facebook.com/hushnotifications">DOWNLOAD</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main class="content-wrap">
-    
+    <div  data-spy="scroll" data-target="#navbar1" data-offset="0">
     <!--Logo, headline and subtitle flexbox-->
     <div class="flex-container center">
         <div>
-            <img src="images/hushicon.png" class="logo" ">
+            <img src="images/hushicon.png" class="logo">
         </div>
         <div>
             <h1>Hush</h1>
@@ -32,9 +52,38 @@
             </a>
         </div>
     </div>
+    <div class="spacer"></div>
+
+    <div id="about" class="about-title-container">
+        <div class="about-title">What is Hush?</div>
+        <div>
+        <div class="about-text" style="float:left">asd fjasl;dfk jalksdf alksjfd a;lskf jklsfjkalsf aks flaksfjkafhasdkj fhkajsf kajsdf akjsf ajksf haskj
+        jasdf kjasfd hjkasd fkjas fhaskj fajks dfhjkasd fhakjsf kjasf kljasf kja fhakjsf ajksf hsajk fhsakjf ajks fhsajk f
+        asdf haksjdf hakjs fhakjsf hakjds fakjshf kjaf a kjf jkasfh kjdsafha kljsdfhkadlj sjka hfkja fhkja fkja fkjads asdfjasklfdakjs fkalsdj falksjf d
+        a sdfhajksdhf kjasdfh kjasf hjkas fhka lfajskh fajksf asdjkf kjsad fkasfh aksf kajsf kajsf aks fkjsf akjf kajsf kjsa fakjf hjksaf hkajlf ha
+        asdf akjsdf hakjf hajks fdakj faksj fkajs fkjas fkjas fkajf akjlf hakjsf kajs fkajls fkaj fkja fkja fjkasf kaj fkajs fkjasfhaskjfhkaslsfhdka</div>
+        <img class="about-phone" src="images/hush-phone.png" style="float:right">
+        <div style="clear:left"></div>
+        </div>
+    </div>
+
+    <div class="spacer"></div>
+
+        <div id="features" class="about-title-container">
+            <div class="about-title">Features</div>
+            <div class="row">
+                <div class="col">
+                    <div class="feature-circle">
+
+                    </div>
+                </div>
+                <div class="col">Test</div>
+                <div class="col">Test</div>
+            </div>
+        </div>
 
 
-
+    </div>
     </main>
     <div class="background">
         <!--Upper right corner yellow triangle-->
@@ -42,5 +91,11 @@
         <!--Lower left corner yellow triangle-->
         <div class="triangle-lowLeft"></div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
 </body>
 </html>

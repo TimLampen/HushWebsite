@@ -43,7 +43,7 @@ h2 {
 	color: #FFCA28;
 	margin: 1%;
 	max-width: 40vw;
-	background: white;
+	background-color: transparent;
 }
 @media (min-width: 320px) {
   h2 { font-size: calc( 3.125vw + 40px ); }
@@ -109,6 +109,67 @@ h2 {
 	border-bottom: 7em solid #FFCA28;
 	position: fixed;
 	bottom: 0;
+}
+
+
+.about-title-container {
+	text-align: center;
+	background-color: whitesmoke;
+	padding: 4vw;
+	border-radius: 12px;
+}
+
+.spacer {
+	margin-top: 300px;
+}
+
+.about-title {
+	display: inline-block;
+	color: #071C46;
+	font-family: 'League Spartan Bold', sans-serif;
+	font-size: 40px;
+	margin: 1%;
+	max-width: 40vw;
+}
+
+.about-text{
+	max-width: 50%;
+	text-align: left;
+	font-size: 20px;
+}
+
+.about-phone{
+	width: 500px;
+	height: 500px;
+	display: inline-block;
+}
+
+.download-button{
+	background-color: black;
+	border-radius: 8px;
+	color: #FFCA28;
+}
+
+#navbar1{
+	background-color: #071C46;
+}
+
+.nav-text{
+	color:white;
+}
+
+.feature-container-large{
+	background-color: blue;
+	height: 600px;
+	width: 350px;
+}
+
+.feature-circle {
+	background-color: red;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	align-
 }
 
 
