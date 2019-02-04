@@ -33,7 +33,6 @@ body {
 h1 {
 	font-family: 'Glacial Indifference Regular', sans-serif;
 	font-size: 9rem;
-	margin-top: 0;
 	color: #071C46;
 	margin: 1%;
 }
@@ -124,43 +123,76 @@ h2 {
 	vertical-align: top;
 }
 
-.about-title-container {
+.about-container {
 	background-color: #071C46;
 	color: white;
-	height: 60vh;
-	border-radius: 2vw;
+	border-radius: 2rem;
+	text-align: center;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+.card-img-top{
+	width:10rem;
+	height: auto;
+	padding-top: 1vh;
+}
+.card-image-container{
+	background-color: #FFCA28;
+	padding-bottom: 1rem;
+	margin: 1.25rem;
+	border-radius: 2rem;
+
+}
+
+.feature-container{
+	color: white;
+	padding-bottom: 2rem;
+	text-align: center;
 }
 
 .spacer {
-	margin-top: 20vh;
+	margin-top: 8rem;
 }
 
 .about-title {
-	display: inline-block;
 	color: #EDEAE5;
 	font-family: 'League Spartan Bold', sans-serif;
-	font-size: 48px;
-	margin-left: 4vw;
-	margin-top: 3vh;
+	font-size: 3rem;
+	text-align: center;
+	margin-top: 3rem;
+}
+
+.about-text-container{
+	padding-top: 2.8rem;
+}
+
+.about-text-first{
+	text-align: center;
+	font-size: 1.2rem;
+	font-family: 'League Spartan Bold', sans-serif;
+	color: #FFCA28;
+	padding-bottom: 2rem;
+	padding-top: 1.5rem;
+
+
 }
 
 .about-text{
-	font-size: 2vw;
-	margin-top: 6vh;
-	margin-left: 5vw;
+	text-align: center;
 }
 
 .about-phone{
-	width: 20vw;
+	width: 10rem;
 	height: auto;
-	margin-left: 5vw;
-	margin-top: -3vh;
+	display: inline-block;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
 
 .download-button{
-	background-color: black;
+	background-color: #EDEAE5;
 	border-radius: 8px;
-	color: #FFCA28;
+	color: #071C46;
 }
 
 #navbar1{
@@ -171,18 +203,19 @@ h2 {
 	color:white;
 }
 
-.feature-container-large{
-	background-color: blue;
-	height: 600px;
-	width: 350px;
+.feature-card{
+	display: inline-block;
+	color: white;
+	margin: 2%;
+	background-color: #071C46;
+	border-radius: 1rem;
+
 }
 
-.feature-circle {
-	background-color: red;
-	border-radius: 50%;
-	height: 100px;
-	width: 100px;
+.feature-col{
+	text-align: center;
 }
+
 
 
 /* Header and Footer
